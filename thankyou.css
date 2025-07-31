@@ -1,0 +1,39 @@
+.background {
+  background-image: url('https://res.cloudinary.com/dupmqapmd/image/upload/v1753787245/1_14_ygbney.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center; /* <-- this is important for centering the button */
+  padding-top: 80px;
+}
+
+
+.background h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20vh;      /* Center vertically */
+  font-size: 3em;         /* Adjust font size as needed */
+}
+.background p {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;       /* Adjust font size as needed */
+}
+ .background a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: inline-block;       /* prevent full-width stretch */
+  margin-top: 20px;            /* space from text above */
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.background a:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
